@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="font.css">
+    <link rel="stylesheet" href="image.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="myscript.js"></script>
+    <title>WEB 1.3</title>
+</head>
+<body>
+<div style="max-width: 600px; margin: 0 auto; text-align: justify;">
+<div class="topnav" id="home">
+        <a class="active" href="#home">HOME</a>
+        <a href="#intro">Intro</a>
+        <a href="#star_war">Movie 1</a>
+        <a href="#pokemon">Movie 2</a>
+        <a href="#harry_potter">Movie 3</a>
+        <a href="characters.html">Characters </a>
+</div> 
+<br>
+
+<div class="div-test">
+    <table>
+        <tr>
+            <th>a</th>
+            <th>b</th>
+        </tr>
+        <tr>
+            <td>a1</td>
+            <td>b1</td>
+        </tr>
+        <tr>
+            <td>a2</td>
+            <td>b2</td>
+        </tr>
+        <tr>
+            <td>a3</td>
+            <td>b3</td>
+        </tr>
+    </table>
+    <!-- Introduction -->
+    <div style="text-align:justify;">
+        <h1 id="demo">Hello, World!</h1>
+        <button onclick="changeText('PORTFOLIO','demo')">Show text !!</button>
+        <br><br>
+        <div id="digital-clock"></div>
+        <h1 id="intro">Xin chào mọi người, mình là Khương</h1>
+        <h1 class="small">Mình 24 tuổi</h1>
+        <h3 style="font-size: 15px;">Sở thích của bản thân:</h3>
+        <ol>
+            <li>Chơi game pc :
+            <ol>
+                <li> League of Legends </li>
+                <li> Minecraft </li>
+                <li> Borderlands </li>
+            </ol>
+            </li>
+            <li> Xem phim và đọc sách :</li>
+            <ol>
+                <li> GOT </li>
+                <li> Breaking Bad </li>
+                <li> Prison Break </li>
+            </ol>
+        </ol>
+        <p class="dotted">Mình đã làm code trong <strong>6 năm</strong> và mình cảm thấy hài lòng với nó.</p>
+
+        <p>Câu nói yêu thích : </p>
+<blockquote>
+ <p>“Thời gian của bạn là hữu hạn đừng phí hoài nó bằng cách sống cuộc đời của một người khác”</p> <b>- Steve Jobs- </b>
+</blockquote>
+<h1 class="small">FAQ - Frequently asked questions</h1>
+</h1>
+<table id="faqTable">
+    <tr>
+        <th>Question</th>
+        <th>Answer</th>
+    </tr>
+    <tr>
+        <td>What is your nationality?</td>
+        <td>Was borned and raised in <b>Vietnam</b></td>
+    </tr>
+    <tr>
+        <td>Why do you love coding?</td>
+        <td>It is a long story. Simply, just love it.</td>
+    </tr>
+    <tr>
+        <td>Where are you in VN?</td>
+        <td>Southern of <b>Vietnam</b>, HCM city, small town of BinhThanh district</td>
+    </tr>
+    <!-- Add more FAQ items as needed -->
+</table>
+<button onclick="addRow()">Add FAQ Item</button>
+<form id="faqForm" style="display: none;">
+    <label for="question">Question:</label>
+    <input type="text" id="question" required>
+    <br>
+    <label for="answer">Answer:</label>
+    <input type="text" id="answer" required>
+    <br>
+    <input type="submit" value="Add">
+</form>
+</div>
+</div>
+        <hr>
+    </div>
+    <!-- Favorite Films -->
+    <div style="max-width: 600px; margin: 0 auto; text-align: justify;">
+        <h2 style="text-align: justify; color: #ccf4be; font-family: Verdana, Geneva, Tahoma, sans-serif; ">3 bộ phim yêu thích</h2>
+        <hr>
+
+        <!-- Film 1: Star Wars -->
+        <div class="div-test">
+            <h3 id="demo1">1) Stars War</h3>
+            <button onclick="changeText('Cuộc chiến của những vì sao','demo1')">Vietsub</button>
+            <p>Tác giả: <a href="https://en.wikipedia.org/wiki/George_Lucas">George Lucas</a></p>
+            <p><strong>Mục lục tóm tắt phim </strong>:</p>
+            <!-- unordered list -->
+            <ul> 
+                <li>Chương 1
+                    <ul>
+                        <li>1.1 : Mở đầu cho ...
+                            <ul>
+                                <li>1.1.1 : Giới thiệu</li>
+                            </ul>
+                        </li>
+                        <li>1.2 : Hành trình của ..</li>
+                        <li>1.3 : Kết thúc chương 1</li>
+                    </ul>
+                </li>
+                <li>Chương 2
+                    <ul>
+                        <li>2.1 : Mở đầu cho ...</li>
+                        <li>2.2 : Hành trình của ..</li>
+                        <li>2.3 : Kết thúc chương 2</li>
+                    </ul>
+                </li>
+            </ul>
+            <h4>Chương 1:</h4>
+            <p class="khuong" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">Lorem Ipsum chỉ đơn giản là một đoạn văn bản giả, được dùng vào việc trình bày và dàn trang phục vụ cho in ấn. Lorem Ipsum đã được sử dụng như một văn bản chuẩn cho ngành công nghiệp in ấn từ những năm 1500, khi một họa sĩ vô danh ghép nhiều đoạn văn bản với nhau để tạo thành một bản mẫu văn bản. Đoạn văn bản này không những đã tồn tại năm thế kỉ, mà khi được áp dụng vào tin học văn phòng, nội dung của nó vẫn không hề bị thay đổi. Nó đã được phổ biến trong những năm 1960 nhờ việc bán những bản giấy Letraset in những đoạn Lorem Ipsum, và gần đây hơn, được sử dụng trong các ứng dụng dàn trang, như Aldus PageMaker.</p>
+            <p>Quisque feugiat volutpat enim nec semper. Etiam sit amet elementum velit, nec pellentesque ex. Quisque mollis sit amet ipsum quis porttitor. Proin vehicula porta pretium. Proin a ipsum et sem dignissim rutrum. Curabitur lacinia est sit amet imperdiet sagittis. Integer sollicitudin consectetur tellus, quis hendrerit lorem dapibus eget. Vestibulum et neque est. Proin arcu urna, rutrum feugiat ante faucibus, pellentesque auctor velit. Nunc luctus lobortis condimentum. Mauris eros velit, ultrices in suscipit imperdiet, luctus ac erat. In scelerisque eros a libero ultricies aliquam. Pellentesque luctus enim facilisis turpis ornare, non varius urna tincidunt. Duis in ipsum ac ipsum congue viverra. Etiam id pharetra turpis, sit amet hendrerit nunc. Pellentesque bibendum vulputate quam, non lobortis leo iaculis at.</p>
+            <h4>Chương 2:</h4>
+            <p>Etiam eget lectus justo. Proin at dui ac quam dictum fermentum sed vel leo. Donec diam metus, auctor vulputate lorem et, auctor tincidunt mauris. Aliquam erat volutpat. Nulla lectus sapien, vestibulum sed molestie eu, pharetra at dui. Nam tortor odio, volutpat eu nulla eu, fermentum tempus dolor. Fusce laoreet eu nulla ut rhoncus. Mauris blandit venenatis eros, sed tempor augue cursus at. Vestibulum vulputate eleifend nisl id auctor. Ut sem velit, faucibus nec justo in, ullamcorper vulputate arcu. Integer in tempus nisl. Morbi mollis purus quis convallis aliquet. Cras eget lacus quis odio scelerisque mollis. Fusce sed aliquet est. Suspendisse potenti. In non pellentesque nibh.</p>
+            <p>Chi tiết về phần 1: <a href="link_here">Link</a></p>
+            <br>
+            <hr>
+        </div>
+
+        <!-- Film 2: Pokemon -->
+        <div class="div-test">
+            <h3 id="pokemon">2) Pokemon</h3>
+            <p>Tác giả: <a href="https://en.wikipedia.org/wiki/George_Lucas">George Lucas</a></p>
+            <p><strong>Mục lục tóm tắt phim </strong>:</p>
+            <!-- unordered list -->
+            <ul> 
+                <li>Chương 1
+                    <ul>
+                        <li>1.1 : Mở đầu cho ...
+                            <ul>
+                                <li>1.1.1 : Giới thiệu</li>
+                            </ul>
+                        </li>
+                        <li>1.2 : Hành trình của ..</li>
+                        <li>1.3 : Kết thúc chương 1</li>
+                    </ul>
+                </li>
+                <li>Chương 2
+                    <ul>
+                        <li>2.1 : Mở đầu cho ...</li>
+                        <li>2.2 : Hành trình của ..</li>
+                        <li>2.3 : Kết thúc chương 2</li>
+                    </ul>
+                </li>
+            </ul>
+            <h4>Chương 1:</h4>
+            <p class="khuong" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">Lorem Ipsum chỉ đơn giản là một đoạn văn bản giả, được dùng vào việc trình bày và dàn trang phục vụ cho in ấn. Lorem Ipsum đã được sử dụng như một văn bản chuẩn cho ngành công nghiệp in ấn từ những năm 1500, khi một họa sĩ vô danh ghép nhiều đoạn văn bản với nhau để tạo thành một bản mẫu văn bản. Đoạn văn bản này không những đã tồn tại năm thế kỉ, mà khi được áp dụng vào tin học văn phòng, nội dung của nó vẫn không hề bị thay đổi. Nó đã được phổ biến trong những năm 1960 nhờ việc bán những bản giấy Letraset in những đoạn Lorem Ipsum, và gần đây hơn, được sử dụng trong các ứng dụng dàn trang, như Aldus PageMaker.</p>
+            <p>Quisque feugiat volutpat enim nec semper. Etiam sit amet elementum velit, nec pellentesque ex. Quisque mollis sit amet ipsum quis porttitor. Proin vehicula porta pretium. Proin a ipsum et sem dignissim rutrum. Curabitur lacinia est sit amet imperdiet sagittis. Integer sollicitudin consectetur tellus, quis hendrerit lorem dapibus eget. Vestibulum et neque est. Proin arcu urna, rutrum feugiat ante faucibus, pellentesque auctor velit. Nunc luctus lobortis condimentum. Mauris eros velit, ultrices in suscipit imperdiet, luctus ac erat. In scelerisque eros a libero ultricies aliquam. Pellentesque luctus enim facilisis turpis ornare, non varius urna tincidunt. Duis in ipsum ac ipsum congue viverra. Etiam id pharetra turpis, sit amet hendrerit nunc. Pellentesque bibendum vulputate quam, non lobortis leo iaculis at.</p>
+            <h4>Chương 2:</h4>
+            <p>Etiam eget lectus justo. Proin at dui ac quam dictum fermentum sed vel leo. Donec diam metus, auctor vulputate lorem et, auctor tincidunt mauris. Aliquam erat volutpat. Nulla lectus sapien, vestibulum sed molestie eu, pharetra at dui. Nam tortor odio, volutpat eu nulla eu, fermentum tempus dolor. Fusce laoreet eu nulla ut rhoncus. Mauris blandit venenatis eros, sed tempor augue cursus at. Vestibulum vulputate eleifend nisl id auctor. Ut sem velit, faucibus nec justo in, ullamcorper vulputate arcu. Integer in tempus nisl. Morbi mollis purus quis convallis aliquet. Cras eget lacus quis odio scelerisque mollis. Fusce sed aliquet est. Suspendisse potenti. In non pellentesque nibh.</p>
+            <p>Chi tiết về phần 1: <a href="link_here">Link</a></p>
+            <br>
+            <hr>
+        </div>
+
+        <!-- Film 3: Harry Potter -->
+        <div class="div-test">
+            <h3 id="harry_potter">3) Harry Potter</h3>
+            <p>Tác giả: <a href="https://en.wikipedia.org/wiki/George_Lucas">George Lucas</a></p>
+            <p><strong>Mục lục tóm tắt phim </strong>:</p>
+            <!-- unordered list -->
+            <ul> 
+                <li>Chương 1
+                    <ul>
+                        <li>1.1 : Mở đầu cho ...
+                            <ul>
+                                <li>1.1.1 : Giới thiệu</li>
+                            </ul>
+                        </li>
+                        <li>1.2 : Hành trình của ..</li>
+                        <li>1.3 : Kết thúc chương 1</li>
+                    </ul>
+                </li>
+                <li>Chương 2
+                    <ul>
+                        <li>2.1 : Mở đầu cho ...</li>
+                        <li>2.2 : Hành trình của ..</li>
+                        <li>2.3 : Kết thúc chương 2</li>
+                    </ul>
+                </li>
+            </ul>
+            <h4>Chương 1:</h4>
+            <p class="khuong" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">Lorem Ipsum chỉ đơn giản là một đoạn văn bản giả, được dùng vào việc trình bày và dàn trang phục vụ cho in ấn. Lorem Ipsum đã được sử dụng như một văn bản chuẩn cho ngành công nghiệp in ấn từ những năm 1500, khi một họa sĩ vô danh ghép nhiều đoạn văn bản với nhau để tạo thành một bản mẫu văn bản. Đoạn văn bản này không những đã tồn tại năm thế kỉ, mà khi được áp dụng vào tin học văn phòng, nội dung của nó vẫn không hề bị thay đổi. Nó đã được phổ biến trong những năm 1960 nhờ việc bán những bản giấy Letraset in những đoạn Lorem Ipsum, và gần đây hơn, được sử dụng trong các ứng dụng dàn trang, như Aldus PageMaker.</p>
+            <p>Quisque feugiat volutpat enim nec semper. Etiam sit amet elementum velit, nec pellentesque ex. Quisque mollis sit amet ipsum quis porttitor. Proin vehicula porta pretium. Proin a ipsum et sem dignissim rutrum. Curabitur lacinia est sit amet imperdiet sagittis. Integer sollicitudin consectetur tellus, quis hendrerit lorem dapibus eget. Vestibulum et neque est. Proin arcu urna, rutrum feugiat ante faucibus, pellentesque auctor velit. Nunc luctus lobortis condimentum. Mauris eros velit, ultrices in suscipit imperdiet, luctus ac erat. In scelerisque eros a libero ultricies aliquam. Pellentesque luctus enim facilisis turpis ornare, non varius urna tincidunt. Duis in ipsum ac ipsum congue viverra. Etiam id pharetra turpis, sit amet hendrerit nunc. Pellentesque bibendum vulputate quam, non lobortis leo iaculis at.</p>
+            <h4>Chương 2:</h4>
+            <p>Etiam eget lectus justo. Proin at dui ac quam dictum fermentum sed vel leo. Donec diam metus, auctor vulputate lorem et, auctor tincidunt mauris. Aliquam erat volutpat. Nulla lectus sapien, vestibulum sed molestie eu, pharetra at dui. Nam tortor odio, volutpat eu nulla eu, fermentum tempus dolor. Fusce laoreet eu nulla ut rhoncus. Mauris blandit venenatis eros, sed tempor augue cursus at. Vestibulum vulputate eleifend nisl id auctor. Ut sem velit, faucibus nec justo in, ullamcorper vulputate arcu. Integer in tempus nisl. Morbi mollis purus quis convallis aliquet. Cras eget lacus quis odio scelerisque mollis. Fusce sed aliquet est. Suspendisse potenti. In non pellentesque nibh.</p>
+            <p>Chi tiết về phần 1: <a href="link_here">Link</a></p>
+            <br>
+            <hr>
+        </div>
+    <h1>Contact Us</h1>
+    <p>Fill out the form below to get in touch with us.</p>
+    </div>
+
+</body>
+
+</html>
+
+
+
